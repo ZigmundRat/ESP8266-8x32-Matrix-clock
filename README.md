@@ -1,13 +1,14 @@
-# ESP8266-8x32-Matrix-clock
+### ESP8266-8x32-Matrix-clock
 ESP8266 Internet based clock using 8x32 MAX7219 FC16 Display
 
 *** Improvements Welcome!  Just submit a pull request! ***
+# Features
+- Set time by NTP
+- WifiManager based setup
+- Support for multiple world regions and fractional DST offsets
+- 12/24hr time preferece can be set (at setup time)
+- Settings saved/recalled from EEPROM (remembers all settings across power cycles)
+- Auto display brightness based on time of day
 
-Improvements Desired:
-
-1) ~~Use NTP to acquire time~~  DONE!
-2) ~~Use WiFiManager to setup wifi and some user variables (ie. time offset float)~~  DONE!
-3) ~~Add configurable option for 12hr time instead of 24hr - via wifimanager invokation~~  DONE!
-4) ~~update code to work properly with ESP8266 Boards version 2.5.x and later~~
-
+# See It In Action
 Video of clock in action: https://youtu.be/9C5dRMPiDTk
